@@ -1,0 +1,21 @@
+[project]
+name = "fluxura"
+version = "0.1.0-alpha"
+authors = [
+    { name = "Vivaan Sinha", email = "vivaan.sinha2010.creation@gmail.com" },
+]
+
+description = "Fluxura is a Python library that provides powerful and customizable terminal text styling and coloring capabilities."
+
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+]
+
+[project.urls]
+Homepage = "https://github.com/VDV1llain/fluxura"
+Issues = "https://github.com/VDV1llain/fluxura/issues"
