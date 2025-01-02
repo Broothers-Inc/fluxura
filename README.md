@@ -1,24 +1,17 @@
-# Fluxura
+# 🎨 Fluxura 🖌️
+### ⚠️FLUXURA IS IN THE ALPHA STAGE OF DEVELOPMENT, EXPECT BUGS⚠️
 
-Fluxura is a Python library that provides terminal styling and coloring options for enhancing the appearance of your command-line applications. With support for text styles like bold, italic, underline, and strikethrough, as well as foreground and background colors (including custom RGB colors), Fluxura gives you the power to customize the look of your terminal output with ease.
+Fluxura is a Python library that provides terminal styling and coloring options for enhancing the appearance of command-line applications. With support for text styles like bold, italic, underline, and strikethrough, as well as foreground and background colors (including custom RGB colors), Fluxura gives the power to customize the look of terminal output with ease.
 
-## Features
+## 🔦Features
 
-- **Text Styles**: Apply styles like **bold**, _italic_, `underline`, and `strikethrough` to your terminal text.
+- **Text Styles**: Apply styles like `BOLD`, `ITALIC`, `DIM`, `UNDERLINE`, and `STRIKETHROUGH` to terminal text.
 - **Colors**: Choose from predefined color options for foreground and background text colors.
 - **Custom RGB Colors**: Set custom RGB background colors for a more personalized look.
-- **Gradient (coming soon)**: Apply gradients to your text using two colors.
-- **Simple API**: Easy-to-use functions for styling and coloring your text in the terminal.
+- **Gradient (hoping to develop)**: Apply gradients to text using two colors.
+- **Simple API**: Easy-to-use functions for styling and coloring text in the terminal.
 
-## Features
-
-- **Text Styles**: Apply styles like **bold**, _italic_, `underline`, and `strikethrough` to your terminal text.
-- **Colors**: Choose from predefined color options for foreground and background text colors.
-- **Custom RGB Colors**: Set custom RGB background colors for a more personalized look.
-- **Gradient (coming soon)**: Apply gradients to your text using two colors.
-- **Simple API**: Easy-to-use functions for styling and coloring your text in the terminal.
-
-## Installation
+## 📦Installation
 
 You can install Fluxura using `pip` from PyPI (or TestPyPI for testing purposes).
 
@@ -26,48 +19,43 @@ You can install Fluxura using `pip` from PyPI (or TestPyPI for testing purposes)
 
 `pip install fluxura`
 
-`pip install --index-url https://test.pypi.org/simple/ fluxura`
-
 ### 4. **Example Usage**:
 
 ````markdown
-## Usage
 
-Once installed, you can start using Fluxura to style your terminal text.
+Once installed, you can start using Fluxura to style terminal text.
 
 ```python
-from fluxura import Color, Style, stylize
+from fluxura import Color, Style, flux
 
 # Example 1: Apply bold and red color to text
-text = stylize("Hello, World!", Style.BOLD, Color.fg("red"))
-print(text)
+print(flux("Hello, World!", Style.BOLD, Color.fore.RED))
 
 # Example 2: Apply italic and blue color to text
-text = stylize("This is a test.", Style.ITALIC, Color.fg("blue"))
-print(text)
+print(flux("This is a test!",  Style.ITALIC, Color.fore.BLUE))
 
 # Example 3: Use a custom RGB background color
-text = stylize("Custom background color", Color.bg(255, 165, 0))  # RGB: Orange
-print(text)
+print(flux("Custom background colour!",  Style.ITALIC, Color.Back.CUSTOM(255, 165, 0))
 
 # Example 4: Combine multiple styles and colors
-text = stylize("Bold, underlined, and green text", Style.BOLD, Style.UNDERLINE, Color.fg("green"))
-print(text)
-
-
-### 5. **Customization Section**:
-```
+print(flux("Bold, underlined, and green text",  Style.BOLD, Style.UNDERLINE, Color.Fore.GREEN)
 ````
 
-## Customization
+## 🎨Customization
 
-You can customize the foreground and background colors using built-in colors or by specifying RGB values.
+Fluxura can customize the foreground and background colors using built-in colors or by specifying RGB values. It can also customise the styles of the text in multiple ways.
 
-- Predefined colors include: `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`, and `orange`.
-- To use a custom RGB background color, pass the RGB values to the `Color.bg()` method like this:
-  ```python
-  Color.bg(255, 165, 0)  # RGB values for orange background
-  ```
-## ===
-## FLUXURA IS STILL IN DEVELOPMENT, WITH MORE FEATURES COMING SOON...
-## ===
+- Colours
+  - Predefined colors:
+    - Classic Variants: `BLACK`, `RED`, `GREEN`, `YELLOW`, `BLUE`, `MAGENTA`, `CYAN`, `WHITE`.
+    - Light Variants: `LIGHT_BLACK`, `LIGHT_RED`, `LIGHT_GREEN`, `LIGHT_YELLOW`, `LIGHT_BLUE`, `LIGHT_MAGENTA`, `LIGHT_CYAN`,     `LIGHT_WHITE`.
+  - To use a custom RGB color, pass the RGB values to the `Color.____.custom()` method like this:
+    ```python
+    Color.Fore.CUSTOM(255, 165, 0)  # RGB values for orange foreground
+    Color.Back.CUSTOM(255, 165, 0)  # RGB values for orange backgroun
+    ```
+- Styles
+    - Style Variants: `BOLD`, `BRIGHT`, `DIM`, `ITALIC`, `STRIKETHROUGH`
+---
+ 
+### 🔨MANY MORE FEATURES ARE EXPECTED TO COME SOON🔨
