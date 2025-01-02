@@ -5,7 +5,7 @@ authors = [
     { name = "Vivaan Sinha", email = "vivaan.sinha2010.creation@gmail.com" },
 ]
 
-description = "Fluxura is a Python library that provides powerful and customizable terminal text styling and coloring capabilities."
+description = "A soon-to-be easy way to style outputs in terminal"
 
 readme = "README.md"
 requires-python = ">=3.6"
