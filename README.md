@@ -46,6 +46,7 @@ print(flux("Bold, underlined, and green text",  Style.BOLD, Style.UNDERLINE, Col
 
 Fluxura can customize the foreground and background colors using built-in colors or by specifying RGB values. It can also customise the styles of the text in multiple ways.
 
+
 - Colours
   - Predefined colors:
     - Classic Variants: `BLACK`, `RED`, `GREEN`, `YELLOW`, `BLUE`, `MAGENTA`, `CYAN`, `WHITE`.
@@ -55,8 +56,20 @@ Fluxura can customize the foreground and background colors using built-in colors
     Color.Fore.CUSTOM(255, 165, 0)  # RGB values for orange foreground
     Color.Back.CUSTOM(255, 165, 0)  # RGB values for orange backgroun
     ```
-- Styles
+- Styles!
+
     - Style Variants: `BOLD`, `BRIGHT`, `DIM`, `ITALIC`, `STRIKETHROUGH`
 ---
  
 ### 🔨MANY MORE FEATURES ARE EXPECTED TO COME SOON🔨
+
+<br>
+
+![Banner Broothers Logo (White)](https://github.com/user-attachments/assets/27886cee-b1e4-455b-ba3a-6870c7a27f10)
+
+
+
+
+
+
+
