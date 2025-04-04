@@ -14,7 +14,7 @@ Fluxura is a Python library that provides terminal styling and coloring options 
 
 ## 📦 Installation
 
-You can install Fluxura using `pip` from PyPI (or TestPyPI for testing purposes).
+You can install Fluxura using `pip` from PyPI.
 
 ### From PyPI:
 
