@@ -1,4 +1,4 @@
-# 🎨 Fluxura: Customisation for outputs in the terminal 🖌️
+# 🎨 Fluxura - A Styler For Terminal Outputs 🖌️
 ### ⚠️ FLUXURA IS IN THE ALPHA STAGE OF DEVELOPMENT, EXPECT BUGS ⚠️
 ### Current Stage: v0.1.0-alpha1
 
