@@ -65,7 +65,8 @@ Fluxura can customize the foreground and background colors using built-in colors
 
 <br>
 
-![Banner Broothers Logo (White)](https://github.com/user-attachments/assets/27886cee-b1e4-455b-ba3a-6870c7a27f10)
+![Banner Broothers Logo (White)](https://github.com/user-attachments/assets/27886cee-b1e4-455b-ba3a-6870c7a27f10#gh-dark-mode-only)
+![Banner Broothers Logo (Black)](https://github.com/user-attachments/assets/70704fc6-7ffe-472c-ba3a-6e967b05a512#gh-light-mode-only)
 
 
 
