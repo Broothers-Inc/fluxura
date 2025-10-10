@@ -1,6 +1,8 @@
 # 🎨 Fluxura - A Styler For Terminal Outputs 🖌️
 ### ⚠️ FLUXURA IS IN THE ALPHA STAGE OF DEVELOPMENT, EXPECT BUGS ⚠️
-### Current Stage: v0.1.0-alpha1
+### Current Stage: v0.1.1-alpha0
+![GitHub License](https://img.shields.io/github/license/Broothers-Inc/fluxura) ![GitHub last commit](https://img.shields.io/github/last-commit/Broothers-Inc/fluxura) ![PyPI - Downloads](https://img.shields.io/pypi/dm/fluxura)
+
 
 Fluxura is a Python library that provides terminal styling and coloring options for enhancing the appearance of command-line applications. With support for text styles like bold, italic, underline, and strikethrough, as well as foreground and background colors (including custom RGB colors), Fluxura gives the power to customize the look of terminal output with ease.
 
@@ -41,6 +43,8 @@ print(flux("Custom background colour!",  Style.ITALIC, Color.Back.CUSTOM(255, 16
 # Example 4: Combine multiple styles and colors
 print(flux("Bold, underlined, and green text",  Style.BOLD, Style.UNDERLINE, Color.Fore.GREEN))
 ````
+
+For more examples, check test_fluxura.py in the tests folder.
 
 ## 🎨 Customization
 
