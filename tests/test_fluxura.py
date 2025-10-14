@@ -83,6 +83,21 @@ print(flux("Underline Magenta on Blue", Style.UNDERLINE, Color.Fore.MAGENTA, Col
 print(flux("Dim Light Blue on Custom", Style.DIM, Color.Fore.LIGHT_BLUE, Color.Back.CUSTOM(70, 130, 180)))
 print(flux("Strikethrough White on Custom", Style.STRIKETHROUGH, Color.Fore.WHITE, Color.Back.CUSTOM(255, 127, 80)))
 
+# Section 8: Gradients
+fore_gradient = twopointgrad("Foreground gradient", Color.Fore.CUSTOM(255, 0, 0), Color.Fore.CUSTOM(0, 0, 255))
+print(fore_gradient)
+
+combined_gradient = twopointgrad("Gradient with combined styles", Color.Fore.CUSTOM(0, 0, 0), Color.Fore.CUSTOM(255, 255, 255))
+print(flux(combined_gradient, Style.BOLD, Style.ITALIC, Style.UNDERLINE, Style.STRIKETHROUGH))
+
+back_gradient = twopointgrad("Background gradient", Color.Back.CUSTOM(0, 255, 255), Color.Back.CUSTOM(255, 0, 0))
+print(back_gradient)
+
+fore_and_back_gradient = twopointgrad("Foreground AND Background", Color.Back.CUSTOM(0, 0, 0), 
+                    Color.Back.CUSTOM(255, 255, 255),
+                    Color.Fore.CUSTOM(255, 0, 255), Color.Fore.CUSTOM(255, 0, 0))
+print(fore_and_back_gradient)
+print(flux("(^^^ This can be strange due to how terminals style text with custom backgrounds)", Style.DIM))
 
 print("=" * 50)
 print(flux("End of TEST", Style.BOLD, Style.UNDERLINE, Color.Fore.CYAN))
