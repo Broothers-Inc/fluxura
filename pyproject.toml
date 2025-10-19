@@ -1,6 +1,6 @@
 [project]
 name = "fluxura"
-version = "0.1.1a1"
+version = "0.1.1a2"
 authors = [
     { name = "Vivaan Sinha", email = "vivaan.sinha2010.creation@gmail.com" },
 ]
